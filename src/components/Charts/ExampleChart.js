@@ -18,20 +18,7 @@ import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
 ReactFC.fcRoot(FusionCharts, chart, FusionTheme);
 
 // STEP 2 - Chart Data
-const chartData = [
-  {
-    label: "HTML",
-    value: "13"
-  },
-  {
-    label: "CSS",
-    value: "23"
-  },
-  {
-    label: "Javascript",
-    value: "80"
-  },
-];
+
 
 // STEP 3 - Creating the JSON object to store the chart configurations
 const chartConfigs = {
