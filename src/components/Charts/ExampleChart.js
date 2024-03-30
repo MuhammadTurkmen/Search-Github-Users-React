@@ -59,7 +59,7 @@ const chartConfigs = {
   }
 };
 
-const ChartComponent  = () => {
+const ChartComponent  = ({data}) => {
   return (<ReactFC {...chartConfigs} />);
 }
 
