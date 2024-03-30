@@ -11,7 +11,7 @@ const User = () => {
   </section>;
 };
 
-const Wrapper = styled.div`
+const Wrapper = styled.div` 
   padding-top: 2rem;
   display: grid;
   gap: 3rem 2rem;
