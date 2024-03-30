@@ -84,4 +84,4 @@ const ChartComponent  = () => {
 }
 
 
-export default App;
+export default ChartComponent;
