@@ -26,6 +26,8 @@ const Card = () => {
     <p className='bio'>{bio}</p>
     <div className='links'>
       <p><MdBusiness></MdBusiness> {company}</p>
+      <p><MdLocationOn></MdLocationOn> {location || 'earth'}</p>
+      <a href={`https://${blog}`}><MdLink></MdLink> {blog}</a>
     </div>
   </Wrapper>
 };
