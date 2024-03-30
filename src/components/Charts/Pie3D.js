@@ -32,7 +32,8 @@ const ChartComponent  = ({data}) => {
   dataSource: {
     // Chart Configuration
     chart: {
-      caption:"Languages"
+      caption: "Languages",
+      theme: "fusion",
     },
     // Chart Data
     data,
