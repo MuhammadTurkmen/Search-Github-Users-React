@@ -9,13 +9,13 @@ import ReactFC from "react-fusioncharts";
 import FusionCharts from "fusioncharts";
 
 // Include the chart type
-import Column2D from "fusioncharts/fusioncharts.charts";
+import chart from "fusioncharts/fusioncharts.charts";
 
 // Include the theme as fusion
 import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
 
 // Adding the chart and theme as dependency to the core fusioncharts
-ReactFC.fcRoot(FusionCharts, Column2D, FusionTheme);
+ReactFC.fcRoot(FusionCharts, chart, FusionTheme);
 
 // STEP 2 - Chart Data
 const chartData = [
