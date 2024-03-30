@@ -15,6 +15,7 @@ const Repos = () => {
       }
       return total
     }, {})
+    languages = Object.values(languages)
 
     const chartData = [
     {
