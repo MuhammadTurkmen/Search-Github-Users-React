@@ -12,7 +12,7 @@ function App() {
         <Login />
       </Route>
       <Route>
-        <Error />
+        <Error path="*"/>
       </Route>
     </Router>
   );
