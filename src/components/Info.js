@@ -31,11 +31,11 @@ const UserInfo = () => {
       color: 'purple'
     },
     {
-      id: 1, 
-      icon: <GoRepo className='icon'/>, 
-      lable: 'repos', 
-      value: public_repos, 
-      color: 'pink'
+      id: 4, 
+      icon: <GoGist className='icon'/>, 
+      lable: 'gists', 
+      value: public_gists, 
+      color: 'yellow'
     }
   ]
 
