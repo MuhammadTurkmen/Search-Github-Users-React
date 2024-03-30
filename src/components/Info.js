@@ -40,8 +40,8 @@ const UserInfo = () => {
   ]
 
   return <section className='section'>
-    <Wrapper>
-      
+    <Wrapper className="section-center">
+
     </Wrapper>
   </section>
 };
