@@ -7,6 +7,7 @@ const Repos = () => {
 
     let languages = repos.reduce((total, item) => {
       const {language} = item
+      if(!language) return total
       return total
     }, {})
 
