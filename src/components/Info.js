@@ -7,7 +7,7 @@ import { FiUsers, FiUserPlus } from 'react-icons/fi';
 const UserInfo = () => {
   const data = React.useContext(GithubContext)
 
-  return <h2>user info component : {data}</h2>;
+  return <h2>user info component </h2>;
 };
 
 const Wrapper = styled.section`
