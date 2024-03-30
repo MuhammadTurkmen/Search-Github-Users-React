@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { MdBusiness, MdLocationOn, MdLink } from 'react-icons/md';
 const Card = () => {
   const {githubUser} = React.useContext(githubUser)
-  const {} = githubUser
+  const {avatar_url, } = githubUser
   return <h2>card component</h2>;
 };
 const Wrapper = styled.article`
