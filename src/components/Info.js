@@ -17,11 +17,11 @@ const UserInfo = () => {
       color: 'pink'
     },
     {
-      id: 1, 
-      icon: <GoRepo className='icon'/>, 
-      lable: 'repos', 
-      value: public_repos, 
-      color: 'pink'
+      id: 2, 
+      icon: <FiUsers className='icon'/>, 
+      lable: 'followers', 
+      value: followers, 
+      color: 'green'
     },
     {
       id: 1, 
