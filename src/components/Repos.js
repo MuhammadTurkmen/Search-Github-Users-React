@@ -7,11 +7,10 @@ const Repos = () => {
 
   return <section className='section'>
     <Wrapper className="section-center">
-
+      <ExampleChart />
     </Wrapper>
   </section>
   
-  <ExampleChart />
 };
 
 const Wrapper = styled.div`
