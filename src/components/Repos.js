@@ -8,7 +8,9 @@ const Repos = () => {
     let languages = repos.reduce((total, item) => {
       const {language} = item
       if(!language) return total
-      if(!total[language])
+      if(!total[language]) {
+        total[language] = 1
+      }
       total[language] = 30
       return total
     }, {})
