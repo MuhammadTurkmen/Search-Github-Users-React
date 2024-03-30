@@ -82,11 +82,6 @@ const chartConfigs = {
 const ChartComponent  = () => {
   return (<ReactFC {...chartConfigs} />);
 }
-// STEP 4 - Creating the DOM element to pass the react-fusioncharts component
-class App extends React.Component {
-  render() {
-    return 
-  }
-}
+
 
 export default App;
