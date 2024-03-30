@@ -17,7 +17,9 @@ const Card = () => {
   return <Wrapper>
     <header>
       <img src={avatar_url} alt={name}/>
-      <div></div>
+      <div>
+        <h4>{name}</h4>
+      </div>
     </header>
   </Wrapper>
 };
