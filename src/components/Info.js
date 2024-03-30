@@ -24,11 +24,11 @@ const UserInfo = () => {
       color: 'green'
     },
     {
-      id: 1, 
-      icon: <GoRepo className='icon'/>, 
-      lable: 'repos', 
-      value: public_repos, 
-      color: 'pink'
+      id: 3, 
+      icon: <FiUserPlus className='icon'/>, 
+      lable: 'following', 
+      value: following, 
+      color: 'purple'
     },
     {
       id: 1, 
