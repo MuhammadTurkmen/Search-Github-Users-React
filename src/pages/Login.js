@@ -4,7 +4,9 @@ import styled from 'styled-components';
 import loginImg from '../images/login-img.svg';
 const Login = () => {
   return <Wrapper>
-    <div className='container'></div>
+    <div className='container'>
+      <img src={loginImg} alt='github user' />
+    </div>
   </Wrapper>
 };
 const Wrapper = styled.section`
