@@ -5,6 +5,7 @@ const Error = () => {
   return <Wrapper>
     <div>
       <h1>404</h1>
+      <h3></h3>
     </div>
   </Wrapper>
 };
