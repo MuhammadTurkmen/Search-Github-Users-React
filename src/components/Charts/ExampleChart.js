@@ -21,7 +21,10 @@ ReactFC.fcRoot(FusionCharts, chart, FusionTheme);
 
 
 // STEP 3 - Creating the JSON object to store the chart configurations
-const chartConfigs = {
+
+
+const ChartComponent  = ({data}) => {
+  const chartConfigs = {
   type: "column2d", // The chart type
   width: "400", // Width of the chart
   height: "400", // Height of the chart
@@ -46,8 +49,7 @@ const chartConfigs = {
   }
 };
 
-const ChartComponent  = ({data}) => {
-  return (<ReactFC {...chartConfigs} />);
+return (<ReactFC {...chartConfigs} />);
 }
 
 
