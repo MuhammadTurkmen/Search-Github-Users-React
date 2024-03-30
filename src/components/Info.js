@@ -49,7 +49,7 @@ const UserInfo = () => {
 };
 
 const Item = ({icon, lable, value, color}) => {
-  return <article>
+  return <article className='item'>
   </article>
 }
 
