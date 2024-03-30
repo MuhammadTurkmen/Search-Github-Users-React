@@ -39,7 +39,11 @@ const UserInfo = () => {
     }
   ]
 
-  return <section className='section'></section>
+  return <section className='section'>
+    <Wrapper>
+      
+    </Wrapper>
+  </section>
 };
 
 const Wrapper = styled.section`
