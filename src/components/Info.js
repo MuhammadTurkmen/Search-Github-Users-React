@@ -50,7 +50,11 @@ const UserInfo = () => {
 
 const Item = ({icon, lable, value, color}) => {
   return <article className='item'>
-    <span className={color}>{icon]</span>
+    <span className={color}>{icon}</span>
+    <div>
+      <h3>{value}</h3>
+      <p>{lable}</p>
+    </div>
   </article>
 }
 
