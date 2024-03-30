@@ -5,6 +5,8 @@ import { ExampleChart, Pie3D, Column3D, Bar3D, Doughnut2D } from './Charts';
 const Repos = () => {
     const {repos} = React.useContext(GithubContext)
 
+    let languages
+
     const chartData = [
     {
       label: "HTML",
