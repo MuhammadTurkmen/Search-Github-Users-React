@@ -8,7 +8,9 @@ function App() {
       <Route>
         <Dashboard></Dashboard>
       </Route>
-      <Login />
+      <Route>
+        <Login />
+      </Route>
     </Router>
   );
 }
