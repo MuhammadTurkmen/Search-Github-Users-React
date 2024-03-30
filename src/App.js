@@ -11,6 +11,9 @@ function App() {
       <Route path="/login">
         <Login />
       </Route>
+      <Route>
+        <Error />
+      </Route>
     </Router>
   );
 }
