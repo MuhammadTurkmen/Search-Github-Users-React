@@ -31,6 +31,9 @@ const Repos = () => {
       return {...item, value: item.stars}
     }).slice(0,5)
 
+    
+    // stars, forks
+
     const chartData = [
     {
       label: "HTML",
