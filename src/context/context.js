@@ -28,6 +28,7 @@ const GithubProvider = ({children}) => {
             setGithubUser(response.data)
             //  more logic here 
             // repose
+            // https://api.github.com/users/john-smilga/repos?per_page=100
         }
         else {
             toggleError(true, 'there is no user with that usernames')
