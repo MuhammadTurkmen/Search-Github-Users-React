@@ -7,7 +7,9 @@ const Followers = () => {
 
   return <Wrapper>
     <div className='flollowers'>
-      
+      {followers.map((follower, index) => {
+        const {avatar_url:img, html_url, login} = follower
+      })}
     </div>
   </Wrapper>
 };
