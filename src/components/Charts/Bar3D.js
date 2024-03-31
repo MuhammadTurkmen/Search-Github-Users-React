@@ -32,7 +32,7 @@ const ChartComponent  = ({data}) => {
   dataSource: {
     // Chart Configuration
     chart: {
-      caption: "Most Popular",
+      caption: "Most Forkeds",
       yAxisName: "stars",
       xAxisName: "Repos",
       xAxisNameFontSize: "16px",
