@@ -14,6 +14,9 @@ const GithubProvider = ({children}) => {
     const [githubUser, setGithubUser]  = useState(mockUser)
     const [repos, setRepos]  = useState(mockRepos)
     const [followers, setFollowers]  = useState(mockFollowers)
+    // requests loading
+    const [requests, setRequests] = useState(0)
+    const [isLoading, setLoading] = useState(false)
     // error
     const [error, setError] = useState({show: false, msg:""})   
  
@@ -28,11 +31,11 @@ const GithubProvider = ({children}) => {
         else {
             toggleError(true, 'there is no user with that usernames')
         }
+        checkRequests()
+        set
     } 
     
-    // requests loading
-    const [requests, setRequests] = useState(0)
-    const [isLoading, setLoading] = useState(false)
+
     // check rate
     const checkRequests = () => {
         axios(`${rootUrl}/rate_limit`).then(({data}) => {
