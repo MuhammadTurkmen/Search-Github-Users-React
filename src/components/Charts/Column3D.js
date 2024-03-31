@@ -33,7 +33,8 @@ const ChartComponent  = ({data}) => {
     // Chart Configuration
     chart: {
       caption: "Most Popular",
-
+      yAxisName: "stars",
+      xAxisName: "Repos",
 
     },
     // Chart Data
