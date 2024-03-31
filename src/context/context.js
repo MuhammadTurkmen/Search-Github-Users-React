@@ -27,6 +27,10 @@ const GithubProvider = ({children}) => {
         if(response) {
             setGithubUser(response.data)
             const { login, followers_url } = response.data
+            // repose
+            axios(`${rootUrl}/users/${login}/repose?per_page=100`).
+            then(response => console.log(response))
+            // followers
             axios(`${rootUrl}/users/${login}/repose?per_page=100`).
             then(response => console.log(response))
             //  more logic here 
