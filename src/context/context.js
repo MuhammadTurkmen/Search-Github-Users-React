@@ -23,6 +23,7 @@ const GithubProvider = ({children}) => {
         const response = await axios(`${rootUrl}/users/${user}`).catch(err => console.log(err))
         if(response) {
             setGithubUser(response.data)
+            //  more logic here 
         }
         else {
             toggleError(true, 'there is no user with that usernames')
