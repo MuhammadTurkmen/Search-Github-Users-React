@@ -24,6 +24,9 @@ const GithubProvider = ({children}) => {
         if(response) {
             setGithubUser(response.data)
         }
+        else {
+            toggleError(true, 'there is no user with that usernames')
+        }
     } 
     
     // requests loading
