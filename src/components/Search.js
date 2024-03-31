@@ -10,7 +10,9 @@ const Search = () => {
   } 
   return <section className='section'>
     <Wrapper className='section-center'>
-      <form onSubmit={handleSubmit}></form>
+      <form onSubmit={handleSubmit}>
+        <div className='form-control'></div>
+      </form>
     </Wrapper>
   </section>
 }; 
