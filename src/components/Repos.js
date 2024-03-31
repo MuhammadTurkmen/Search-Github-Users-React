@@ -6,7 +6,7 @@ const Repos = () => {
     const {repos} = React.useContext(GithubContext)
 
     let languages = repos.reduce((total, item) => {
-      const {language} = item
+      const {language, stargazers_count} = item
       if(!language) return total
       if(!total[language]) {
         total[language] = {label: language, value: 1}

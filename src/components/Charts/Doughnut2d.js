@@ -12,7 +12,7 @@ import FusionCharts from "fusioncharts";
 import chart from "fusioncharts/fusioncharts.charts";
 
 // Include the theme as fusion
-import FusionTheme from "fusioncharts/themes/fusioncharts.theme.fusion";
+import FusionTheme from "fusioncharts/themes/fusioncharts.theme.candy";
 
 // Adding the chart and theme as dependency to the core fusioncharts
 ReactFC.fcRoot(FusionCharts, chart, FusionTheme);
@@ -35,7 +35,8 @@ const ChartComponent  = ({data}) => {
       caption: "Stars Per Language",
       decimals: 0,
       doughnutRadius: "45%", 
-      showPercentValues: 0
+      showPercentValues: 0,
+      theme: "candy"
     },
     // Chart Data
     data,
