@@ -27,6 +27,8 @@ const Repos = () => {
     // most stars per language
     const mostPopular = Object.values(languages).sort((a,b) => {
       return b.stars - a.stars
+    }).map((item) => {
+      return {...item, value: item.stars}
     })
 
     const chartData = [
