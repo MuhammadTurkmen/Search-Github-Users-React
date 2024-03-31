@@ -41,7 +41,7 @@ const Repos = () => {
       stars: {}, forks: {}
     })
 
-    stars = Object.values(stars)
+    stars = Object.values(stars).slice(-5).reverse()
 
     const chartData = [
     {
