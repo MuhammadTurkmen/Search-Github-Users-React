@@ -35,7 +35,7 @@ const GithubProvider = ({children}) => {
             // followers
             axios(`${followers_url}?per_page=100`).
             then(response => 
-                setFollowers(response)    
+                setFollowers(response.data)    
             )
 
             //  more logic here 
