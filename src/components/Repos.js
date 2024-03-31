@@ -41,6 +41,8 @@ const Repos = () => {
       stars: {}, forks: {}
     })
 
+    stars = Object.values(stars)
+
     const chartData = [
     {
       label: "HTML",
