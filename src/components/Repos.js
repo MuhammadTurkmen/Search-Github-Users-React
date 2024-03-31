@@ -25,7 +25,7 @@ const Repos = () => {
     }).slice(0,5)
 
     // most stars per language
-    const mostPopular = Object.values(languages)
+    const mostPopular = Object.values(languages).sort(() => {})
 
     const chartData = [
     {
