@@ -4,6 +4,8 @@ import { MdSearch } from 'react-icons/md';
 import { GithubContext } from '../context/context';
 const Search = () => {
   const [user, setUser] = React.useState('')
+  // get things from globle context
+  
   return <h2>search component</h2>;
 };
 
