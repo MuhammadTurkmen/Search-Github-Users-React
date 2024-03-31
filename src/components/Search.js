@@ -9,7 +9,7 @@ const Search = () => {
     console.log(user);
   } 
   return <h2>search component</h2>;
-};
+}; 
 
 const Wrapper = styled.div`
   position: relative;
