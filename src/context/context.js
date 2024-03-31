@@ -17,6 +17,10 @@ const GithubProvider = ({children}) => {
     // error
     const [error, setError] = useState({show: false, msg:""})   
  
+    const searchGithubUser = async (user) => {
+        console.log();
+    } 
+    
     // requests loading
     const [requests, setRequests] = useState(0)
     const [loading, setLoading] = useState(false)
@@ -45,7 +49,8 @@ const GithubProvider = ({children}) => {
             repos,
             followers,
             requests,
-            error
+            error,
+            searchGithubUser,
         }}
     >{children}</GithubContext.Provider>
 }
