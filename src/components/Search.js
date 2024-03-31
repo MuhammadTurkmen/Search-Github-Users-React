@@ -6,6 +6,7 @@ const Search = () => {
   const [user, setUser] = React.useState('')
   // get things from globle context
   const handleSubmit = (e) => {
+    e.preventDefault()
     console.log(user);
   } 
   return <section className='section'>
