@@ -32,7 +32,7 @@ const GithubProvider = ({children}) => {
     
     // requests loading
     const [requests, setRequests] = useState(0)
-    const [loading, setLoading] = useState(false)
+    const [isLoading, setLoading] = useState(false)
     // check rate
     const checkRequests = () => {
         axios(`${rootUrl}/rate_limit`).then(({data}) => {
