@@ -10,6 +10,7 @@ const Search = () => {
     console.log(user);
     if(user) {
       // more logic comming up soon
+      // option
     }
   } 
   return <section className='section'>
