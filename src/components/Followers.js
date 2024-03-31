@@ -10,7 +10,7 @@ const Followers = () => {
       {followers.map((follower, index) => {
         const {avatar_url:img, html_url, login} = follower
         return <article key={index}>
-          <img src={img}/>
+          <img src={img} alt={login}/>
         </article>
       })}
     </div>
