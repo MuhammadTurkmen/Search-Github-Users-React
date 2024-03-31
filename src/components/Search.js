@@ -10,6 +10,7 @@ const Search = () => {
     e.preventDefault()
     if(user) {
       // more logic comming up soon
+      searchGithubUser(user)
       // optional
       // setUser('')
     }
