@@ -18,7 +18,7 @@ const GithubProvider = ({children}) => {
     const [error, setError] = useState({show: false, msg:""})   
  
     const searchGithubUser = async (user) => {
-        console.log();
+        // toggle Error
     } 
     
     // requests loading
