@@ -8,7 +8,6 @@ const Search = () => {
   // get things from globle context
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(user);
     if(user) {
       // more logic comming up soon
       // optional
@@ -17,6 +16,11 @@ const Search = () => {
   } 
   return <section className='section'>
     <Wrapper className='section-center'>
+      {error.show && 
+        <ErrorWrapper>
+          <p>{error.msg}</p>
+        </ErrorWrapper>
+      }
       <form onSubmit={handleSubmit}>
         <div className='form-control'>
           <MdSearch />
