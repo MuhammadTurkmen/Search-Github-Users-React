@@ -19,6 +19,7 @@ const GithubProvider = ({children}) => {
  
     const searchGithubUser = async (user) => {
         // toggle Error
+        // setoading(true)
     } 
     
     // requests loading
