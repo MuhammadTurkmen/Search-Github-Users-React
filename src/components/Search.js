@@ -8,7 +8,7 @@ const Search = () => {
   const handleSubmit = (e) => {
     console.log(user);
   } 
-  return <h2>search component</h2>;
+  return <section></section>
 }; 
 
 const Wrapper = styled.div`
