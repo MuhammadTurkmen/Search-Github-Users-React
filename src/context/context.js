@@ -27,6 +27,7 @@ const GithubProvider = ({children}) => {
         if(response) {
             setGithubUser(response.data)
             //  more logic here 
+            // repose
         }
         else {
             toggleError(true, 'there is no user with that usernames')
