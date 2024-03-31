@@ -33,7 +33,6 @@ const ChartComponent  = ({data}) => {
     // Chart Configuration
     chart: {
       caption: "Stars Per Language",
-      theme: "fusion",
       decimals: 0,
       pieRadius: "35%", 
 
