@@ -60,6 +60,7 @@ const GithubProvider = ({children}) => {
             requests,
             error,
             searchGithubUser,
+            isLoading
         }}
     >{children}</GithubContext.Provider>
 }
