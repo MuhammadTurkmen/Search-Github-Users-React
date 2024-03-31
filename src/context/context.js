@@ -31,7 +31,7 @@ const GithubProvider = ({children}) => {
             axios(`${rootUrl}/users/${login}/repose?per_page=100`).
             then(response => console.log(response))
             // followers
-            axios(`${rootUrl}/users/${login}/repose?per_page=100`).
+            axios(`${followers_url}?per_page=100`).
             then(response => console.log(response))
             //  more logic here 
             // repose
