@@ -26,6 +26,7 @@ const GithubProvider = ({children}) => {
         const response = await axios(`${rootUrl}/users/${user}`).catch(err => console.log(err))
         if(response) {
             setGithubUser(response.data)
+            const { login, followers_url } = response.data
             //  more logic here 
             // repose
             // https://api.github.com/users/john-smilga/repos?per_page=100
