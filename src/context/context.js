@@ -20,7 +20,7 @@ const GithubProvider = ({children}) => {
     const searchGithubUser = async (user) => {
         // toggle Error
         // setoading(true)
-        const response = await axios(`${rootUrl}/users/${user}`)
+        const response = await axios(`${rootUrl}/users/${user}`).catch(err => console.log(err))
     } 
     
     // requests loading
