@@ -35,7 +35,7 @@ const ChartComponent  = ({data}) => {
       caption: "Stars Per Language",
       decimals: 0,
       doughnutRadius: "45%", 
-
+      showPercentValues: 0
     },
     // Chart Data
     data,
