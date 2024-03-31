@@ -16,7 +16,7 @@ const GithubProvider = ({children}) => {
     const [followers, setFollowers]  = useState(mockFollowers)
     // requests loading
     const [requests, setRequests] = useState(0)
-    const [isLoading, setLoading] = useState(false)
+    const [isLoading, setIsLoading] = useState(false)
     // error
     const [error, setError] = useState({show: false, msg:""})   
  
@@ -32,7 +32,7 @@ const GithubProvider = ({children}) => {
             toggleError(true, 'there is no user with that usernames')
         }
         checkRequests()
-        setLoading(false)
+        setIsLoading(false)
     } 
     
 
