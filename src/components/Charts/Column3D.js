@@ -36,6 +36,7 @@ const ChartComponent  = ({data}) => {
       yAxisName: "stars",
       xAxisName: "Repos",
       xAxisNameFontSize: "16px",
+      yAxisNameFontSize: "16px",
 
     },
     // Chart Data
