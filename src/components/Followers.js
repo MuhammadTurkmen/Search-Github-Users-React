@@ -12,7 +12,7 @@ const Wrapper = styled.article`
   border-top-right-radius: var(--radius);
   border-bottom-left-radius: var(--radius);
   border-bottom-right-radius: var(--radius);
-  position: relative;
+  position: relative; 
 
   &::before {
     content: ' followers';
