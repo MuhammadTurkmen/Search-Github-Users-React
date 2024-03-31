@@ -8,6 +8,7 @@ const Search = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(user);
+    // more logic comming up soon
   } 
   return <section className='section'>
     <Wrapper className='section-center'>
