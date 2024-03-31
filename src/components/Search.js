@@ -9,7 +9,9 @@ const Search = () => {
     console.log(user);
   } 
   return <section className='section'>
-    <Wrapper className='section-center'></Wrapper>
+    <Wrapper className='section-center'>
+      <form onSubmit={handleSubmit}></form>
+    </Wrapper>
   </section>
 }; 
 
