@@ -13,7 +13,7 @@ const Search = () => {
       <form onSubmit={handleSubmit}>
         <div className='form-control'>
           <MdSearch />
-          <input type='text' placeholder='enter github user'/>
+          <input type='text' placeholder='enter github user' value={user} onChange={(e) => setUser(e.target.value)}/>
           <button type='submit'>search</button>
         </div>
       </form>
