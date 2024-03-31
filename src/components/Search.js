@@ -14,6 +14,7 @@ const Search = () => {
         <div className='form-control'>
           <MdSearch />
           <input type='text' placeholder='enter github user'/>
+          <button></button>
         </div>
       </form>
     </Wrapper>
