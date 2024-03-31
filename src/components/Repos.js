@@ -17,7 +17,7 @@ const Repos = () => {
     }, {}) 
     languages = Object.values(languages).sort((a,b) => {
       return b.value - a.value
-    })
+    }).slice(0,5)
 
     const chartData = [
     {
