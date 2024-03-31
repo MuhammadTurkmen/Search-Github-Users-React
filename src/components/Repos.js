@@ -50,7 +50,7 @@ const Repos = () => {
       <Wrapper className="section-center">
         <Pie3D data={mostUsed}/>
         <div></div>
-        <Doughnut2D data={chartData}/>
+        <Doughnut2D data={mostPopular}/>
         {/* <ExampleChart data={chartData}/> */}
       </Wrapper>
     </section>
