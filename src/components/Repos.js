@@ -14,9 +14,9 @@ const Repos = () => {
         total[language] = {...total[language], value: total[language.value + 1]}
       }
       return total
-    }, {})
+    }, {}) 
     languages = Object.values(languages).sort(() => {
-      
+
     })
 
     const chartData = [
