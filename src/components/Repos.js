@@ -34,7 +34,7 @@ const Repos = () => {
     
     // stars, forks
     let {stars, forks} = repos.reduce((total, item) => {
-
+      return total
     }, {
       stars: {}, forks: {}
     })
