@@ -19,7 +19,7 @@ const GithubProvider = ({children}) => {
  
     const searchGithubUser = async (user) => {
         toggleError()
-        // setoading(true)
+        setoading(true)
         const response = await axios(`${rootUrl}/users/${user}`).catch(err => console.log(err))
         if(response) {
             setGithubUser(response.data)
