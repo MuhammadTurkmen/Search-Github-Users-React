@@ -15,7 +15,7 @@ const Repos = () => {
       }
       return total
     }, {}) 
-    languages = Object.values(languages).sort(() => {
+    languages = Object.values(languages).sort((a,b) => {
 
     })
 
