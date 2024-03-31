@@ -32,7 +32,7 @@ const GithubProvider = ({children}) => {
             toggleError(true, 'there is no user with that usernames')
         }
         checkRequests()
-        set
+        setLoading(false)
     } 
     
 
