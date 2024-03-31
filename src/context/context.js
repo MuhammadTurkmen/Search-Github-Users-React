@@ -29,10 +29,15 @@ const GithubProvider = ({children}) => {
             const { login, followers_url } = response.data
             // repose
             axios(`${rootUrl}/users/${login}/repose?per_page=100`).
-            then(response => console.log(response))
+            then(response => 
+                setRepos(response.data)
+            )
             // followers
             axios(`${followers_url}?per_page=100`).
-            then(response => console.log(response))
+            then(response => 
+                setFollowers(response)    
+            )
+
             //  more logic here 
             // repose
             // https://api.github.com/users/john-smilga/repos?per_page=100
