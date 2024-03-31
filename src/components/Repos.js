@@ -33,6 +33,7 @@ const Repos = () => {
 
     
     // stars, forks
+    let {stars, forks} = repos.reduce()
 
     const chartData = [
     {
