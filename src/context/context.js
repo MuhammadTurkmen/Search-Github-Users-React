@@ -21,6 +21,9 @@ const GithubProvider = ({children}) => {
         // toggle Error
         // setoading(true)
         const response = await axios(`${rootUrl}/users/${user}`).catch(err => console.log(err))
+        if(response) {
+            setGithubUser(response.data)
+        }
     } 
     
     // requests loading
