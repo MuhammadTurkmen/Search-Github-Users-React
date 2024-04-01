@@ -10,7 +10,7 @@ const Login = () => {
       <h1>github user</h1>
       <button className='btn' onClick={loginWithRedirect}>login / sign up</button>
     </div>
-  </Wrapper>
+  </Wrapper> 
 };
 const Wrapper = styled.section`
   min-height: 100vh;
