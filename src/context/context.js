@@ -30,7 +30,12 @@ const GithubProvider = ({children}) => {
             }
         }).catch((error) => console.log(error))
     }
+
+    function toggleError(show, msg) {
+        
+    }
     // error
+    
 
     useEffect(checkRequests, [])
     
