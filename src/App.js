@@ -7,15 +7,9 @@ function App() {
     <AuthWrapper>
       <Router>
         <Routes>
-          <PrivateRoute path="/" exact={true}>
-            <Dashboard></Dashboard>
-          </PrivateRoute>
-          <Route path="/login">
-            <Login />
-          </Route>
-          <Route>
-            <Error path="*"/>
-          </Route>
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/' element={<Dashboard />} />
+          <Route path='/' element={<Dashboard />} />
         </Routes>
       </Router>
     </AuthWrapper>
