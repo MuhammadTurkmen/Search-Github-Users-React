@@ -15,7 +15,7 @@ const GithubProvider = ({children}) => {
     const [repos, setRepos]  = useState(mockRepos)
     const [followers, setFollowers]  = useState(mockFollowers)
     // error
-    
+    const [error, setError] = useState({show: false, msg:""})   
  
     // requests loading
     const [requests, setRequests] = useState(0)
