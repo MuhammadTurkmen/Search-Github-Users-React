@@ -32,7 +32,7 @@ const GithubProvider = ({children}) => {
     }
 
     function toggleError(show, msg) {
-        
+        setError({show, msg})
     }
     // error
     
