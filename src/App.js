@@ -1,12 +1,12 @@
 import React from 'react';
 import { Dashboard, Login, PrivateRoute, AuthWrapper, Error } from './pages';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <AuthWrapper>
       <Router>
-        <Switch>
+        <Routes>
           <PrivateRoute path="/" exact={true}>
             <Dashboard></Dashboard>
           </PrivateRoute>
@@ -16,7 +16,7 @@ function App() {
           <Route>
             <Error path="*"/>
           </Route>
-        </Switch>
+        </Routes>
       </Router>
     </AuthWrapper>
   );
