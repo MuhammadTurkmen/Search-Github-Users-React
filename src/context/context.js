@@ -26,7 +26,7 @@ const GithubProvider = ({children}) => {
             let {rate:{remaining}} = data
             setRequests(remaining)
             if(remaining === 0) {
-                toggleError(true, 'sorry you have exceeded your hourly rate limit')
+                toggleError(true, 'sorry you have exceeded your hourly rate limit!')
             }
         }).catch((error) => console.log(error))
     }
@@ -44,7 +44,8 @@ const GithubProvider = ({children}) => {
             githubUser,
             repos,
             followers,
-            requests
+            requests,
+            error
         }}
     >{children}</GithubContext.Provider>
 }
