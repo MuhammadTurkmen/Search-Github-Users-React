@@ -19,6 +19,11 @@ const GithubProvider = ({children}) => {
     const [requests, setRequests] = useState(0)
     const [loading, setLoading] = useState(false)
     // error
+
+    useEffect(() => {
+        
+    })
+    
     return <GithubContext.Provider 
         value={{
             githubUser,
