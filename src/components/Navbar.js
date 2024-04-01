@@ -10,8 +10,12 @@ const Navbar = () => {
   return <Wrapper>
     {isUser && user.picture && <img src={user.picture} alt={user.name}/>}
     {isUser && user.name && <h4>welcome, <strong>{user.name.toUpperCase()}</strong></h4>}
-    <button onClick={loginWithRedirect}>login</button>
-    <button onClick={() => {logout({returnTo: window.location.origin})}}>logout</button>
+    {isUser ? 
+      <button onClick={() => {logout({returnTo: window.location.origin})}}>logout</button> :
+      <button onClick={loginWithRedirect}>login</button>
+    
+  }
+    
   </Wrapper>;
 };
 
