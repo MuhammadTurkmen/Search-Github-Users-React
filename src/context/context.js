@@ -26,9 +26,7 @@ const GithubProvider = ({children}) => {
     }
     // error
 
-    useEffect(() => {
-        console.log('hey every things work');
-    }, [])
+    useEffect(checkRequests, [])
     
     return <GithubContext.Provider 
         value={{
