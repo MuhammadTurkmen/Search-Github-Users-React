@@ -4,6 +4,13 @@ import loadingGif from '../images/preloader.gif';
 import styled from 'styled-components';
 function AuthWrapper() {
   const {isLoading, error} = useAuth0()
+  if(isLoading) {
+
+  }
+
+  if(error) {
+    
+  }
   return <h2>authwrapper component</h2>;
 }
 
