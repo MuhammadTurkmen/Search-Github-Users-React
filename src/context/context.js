@@ -18,11 +18,15 @@ const GithubProvider = ({children}) => {
     // requests loading
     const [requests, setRequests] = useState(0)
     const [loading, setLoading] = useState(false)
+    // check rate
+    const checkRequests = () => {
+        
+    }
     // error
 
     useEffect(() => {
-        
-    })
+        console.log('hey every things work');
+    }, [])
     
     return <GithubContext.Provider 
         value={{
