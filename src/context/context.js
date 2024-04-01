@@ -36,7 +36,8 @@ const GithubProvider = ({children}) => {
         value={{
             githubUser,
             repos,
-            followers
+            followers,
+            requests
         }}
     >{children}</GithubContext.Provider>
 }
