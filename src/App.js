@@ -8,8 +8,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Dashboard />} />
-          <Route path='/' element={<Dashboard />} />
-          <Route path='/' element={<Dashboard />} />
+          <Route path='login' element={<Login />} />
+          <Route path='*' element={<Error />} />
         </Routes>
       </Router>
     </AuthWrapper>
